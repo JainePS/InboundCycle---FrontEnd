@@ -56,12 +56,11 @@ header {
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding: 3% 10% 1% 20%;
+    padding: 3% 20% 1% 20%;
 }
 
 header img {
-    max-width: 200px;
-    width: 90%;
+    width: 30%;
     height: auto;
     float: left;
 }
@@ -92,96 +91,10 @@ header i:visited {
 
 .separator-image {
     background-image: url("/Layout/img/separator-image.jpg");
-    max-width: 1500px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     height: 15vh;
     margin-top: 4vh;
-    opacity: 0.7;
-    z-index: 1;
-}
-
-.wrapper {
-    max-width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section img {
-    max-width: 200px;
-    width: 1vh;
-    height: auto;
-}
-
-.titles-ebookImg {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.titles {
-    width: 70%;
-}
-
-h1 {
-    color: #ec600c;
-    font-family: woff, sans-serif;
-    font-weight: bold;
-}
-
-h2 {
-    color: #838385;
-    font-family: woff2, sans-serif;
-}
-
-p {
-    color: #4c4c54;
-    font-family: eot, sans-serif
-}
-
-p>a {
-    color: #ec600c;
-    text-decoration: underline;
-}
-
-.ebook {
-    max-width: 200px;
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-top: -4vh;
-}
-
-.h-line {
-    width: 80vh;
-    border-width: 0;
-    color: #e5e9ec;
-    background-color: #e5e9ec;
-}
-
-.emphasizes {
-    text-decoration: solid;
-    text-align: center;
-    text-emphasis-color: #ec600c;
-}
-
-.footer-frame {
-    max-width: 2000px;
-    width: 100%;
-    height: 9vh;
-    display: flex;
-    flex-direction: row;
-    background-color: #4c4c54;
-    color: white;
-    justify-content: flex-end;
-    justify-items: end;
-    justify-content: space-around;
-}
-
-.popup {
-    visibility: hidden
+    opacity: 0.6;
 }
