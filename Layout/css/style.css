@@ -93,7 +93,7 @@ header a {
     padding: 4% 15%;
     display: flex;
     flex-direction: row;
-    gap: 7vh;
+    gap: 5vh;
 }
 
 section img {
@@ -101,12 +101,12 @@ section img {
     width: 45%;
     height: 44vh;
     margin-top: -13vh;
-    margin-right: 11vh;
+    margin-right: 6vh;
     z-index: 2;
 }
 
 section {
-    width: 275vh;
+    width: 700vh;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -174,27 +174,114 @@ p a {
     font-size: small;
 }
 
-form {
-    width: 100%;
+.form-box {
+    width: 40vh;
+    height: 55vh;
     background-color: #ececec;
-    padding: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 1vh;
-    padding: 2%;
+    gap: 4vh;
+    justify-content: center;
+    justify-items: center;
+    border: none;
 }
 
 h3 {
+    width: 100%;
     font-family: eot, sans-serif;
     color: #ec600c;
     font-weight: bolder;
     font-size: 0.7em;
     text-transform: uppercase;
+    text-align: center;
 }
 
-fieldset {
-    box-sizing: border-box;
+.field-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
     border: none;
-    box-shadow: unset;
+    padding: 0vh 5vh 0vh 4vh;
+    box-sizing: border-box;
+}
+
+fieldset>input {
+    border: 1px solid;
+    box-sizing: border-box;
+    font-family: woff, sans-serif;
+    color: #e7e4e4;
+    font-size: 0.8em;
+    height: 2.25rem;
+    line-height: 1.25rem;
+    margin-top: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    width: 13rem;
+}
+
+input::placeholder {
+    color: #b4b4b4;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-family: woff, sans-serif;
+    color: #525254;
+    font-size: 0.7em;
+    height: 2.25rem;
+    line-height: 1.25rem;
+    padding: 0vh 5vh 0vh 4vh;
+    justify-items: center;
+    justify-content: center;
+}
+
+label>a {
+    color: #ec600c;
+}
+
+button {
+    background-color: #ec600c;
+    color: white;
+    font-family: woff, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: none;
+    height: 5vh;
+    text-align: center;
+    margin-top: -1vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+footer {
+    background-color: #525254;
+    height: 20vh;
+}
+
+.footer-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30vh;
+    padding-top: 8vh;
+}
+
+.footer-texts {
+    color: white;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    justify-items: center;
+    gap: 1vh;
+    padding-right: 20%;
+    font-size: 0.8em;
+}
+
+nav ul {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
 }
