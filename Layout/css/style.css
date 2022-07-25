@@ -44,7 +44,7 @@ main {
 .h-orange-line {
     background-color: #ec600c;
     width: 100%;
-    height: 0.5vh;
+    height: 0.7vh;
 }
 
 header {
@@ -53,11 +53,11 @@ header {
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding: 4% 15% 3% 15%;
+    padding: 3% 15% 3% 15%;
 }
 
 header img {
-    width: 20%;
+    width: 36vh;
     height: auto;
 }
 
@@ -70,13 +70,13 @@ header ul {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    margin-top: -3vh;
+    margin-top: -2vh;
     gap: 1vh;
 }
 
 header a {
     color: #ec600c;
-    font-size: 75%;
+    font-size: 90%;
 }
 
 .separator-image {
@@ -90,8 +90,111 @@ header a {
 }
 
 .wrapper {
-    padding: 4% 20%;
+    padding: 4% 15%;
     display: flex;
     flex-direction: row;
+    gap: 7vh;
+}
+
+section img {
+    float: right;
+    width: 45%;
+    height: 44vh;
+    margin-top: -13vh;
+    margin-right: 11vh;
+    z-index: 2;
+}
+
+section {
+    width: 275vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titles-ebookImg {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: end;
+    justify-content: right;
+}
+
+h1 {
+    padding-right: 0;
+    font-family: woff2, sans-serif;
+    color: #ec600c;
+    margin-bottom: 4vh;
+    font-weight: 700;
+    font-size: 1.7em;
+    word-spacing: 0.005em;
+    letter-spacing: -0.05em;
+    line-height: 1.3em;
+}
+
+hr {
+    opacity: 0.1;
+}
+
+h2 {
+    padding-right: 4vh;
+    font-family: eot, sans-serif;
+    color: #b4b4b4;
+    margin-top: 3vh;
+    font-weight: bolder;
+    font-size: 1.15em;
+    word-spacing: 0.008em;
+    letter-spacing: -0.05em;
+    line-height: 1.3em;
+}
+
+p {
+    width: 100%;
+    margin-top: 3vh;
+    font-family: woff, sans-serif;
+    font-weight: 500;
+    color: #525254;
+    line-height: 1.5em;
+    letter-spacing: -0.015em;
+    word-spacing: 0.08em;
+    font-size: 0.75em;
+}
+
+p a {
+    color: #ec600c;
+    text-decoration: underline;
+}
+
+.emphasizes {
+    text-align: center;
+    color: #ec600c;
+    margin-top: 6vh;
+    text-transform: uppercase;
+    font-family: eot, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+}
+
+form {
+    width: 100%;
+    background-color: #ececec;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    gap: 1vh;
+    padding: 2%;
+}
+
+h3 {
+    font-family: eot, sans-serif;
+    color: #ec600c;
+    font-weight: bolder;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+fieldset {
+    box-sizing: border-box;
+    border: none;
+    box-shadow: unset;
 }
