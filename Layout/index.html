@@ -64,7 +64,7 @@
             <!-- Aside -->
             <aside>
                 <!-- Download form -->
-                <form action="post" class="form-box">
+                <form id="downloadBookForm" class="form-box">
                     <h3>Descargar e-book gratis</h3>
                     <fieldset class="field-box">
                         <input type="text" name="name" placeholder="Nombre">
@@ -101,11 +101,13 @@
         </div>
     </footer>
 
-    <!-- Pop-up
-    <div class="popup">
-        <div class="caption">
-            <i class="fa fa-times"></i>
+    <!-- Pop-up -->
+    <div class="popup" id="donwloaded">
+        <div class="modal-content">
+            <span class="close">&times;</span>
             <p>¡Muchas gracias!</p>
         </div>
-    </div> -->
+    </div>
+
+    <script src="/Layout/app.js"></script>
 </body>
