@@ -462,8 +462,8 @@ nav a {
         padding: 2vh 4vh 2vh 4vh;
     }
     header img {
-        width: 17vh;
-        height: auto;
+        width: auto;
+        height: 2vh;
     }
     header ul {
         margin-top: 0.1vh;
