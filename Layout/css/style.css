@@ -331,10 +331,9 @@ nav a {
         justify-content: center;
     }
     section img {
-        height: 35vh;
-        margin-right: 5vh;
+        width: auto;
+        height: 50vh;
         margin-top: -7vh;
-        z-index: 2;
     }
     section {
         width: 100%;
@@ -407,60 +406,50 @@ nav a {
         width: 20vh;
         height: auto;
     }
-    section img {
-        width: auto;
-        height: 25vh;
-        margin-right: 5vh;
-        margin-top: -8vh;
-    }
-    section h2 {
-        width: 100%;
-        margin-right: -10vh;
-        margin-top: 3vh;
-        font-size: 0.8em;
-    }
-    .emphasizes {
-        margin-bottom: 3vh;
-    }
-    .form-box {
+    section {
         width: 100%;
         height: auto;
     }
-    h3 {
-        margin-top: 4vh;
+    section img {
+        width: auto;
+        height: 25vh;
+        margin-right: 0vh;
+        margin-top: -2vh;
     }
-    form button {
-        margin-bottom: 2vh;
+    section h1 {
+        font-size: 1em;
     }
+    section h2 {
+        width: 100%;
+        padding-right: 0vh;
+        margin-top: 3vh;
+        font-size: 0.8em;
+    }
+    footer img {
+        height: 2vh;
+    }
+    .footer-texts {
+        gap: 0.2vh;
+    }
+    nav ul {
+        gap: 0.3vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     footer {
         width: auto;
         height: 20vh;
     }
     .footer-frame {
-        width: 100%;
         padding-left: 5vh;
         padding-top: 8vh;
-        align-items: center;
     }
     footer img {
-        width: auto;
-        height: 3vh;
+        height: 1.5vh;
     }
     .footer-texts {
         gap: 0.1vh;
-        padding-right: 4vh;
-        font-size: 0.5em;
-    }
-    nav ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        gap: 0.5vh;
-    }
-    nav a {
-        color: white;
-    }
-    .company-year {
-        font-size: 1em;
+        font-size: 0.48em;
     }
 }
