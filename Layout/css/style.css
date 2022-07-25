@@ -503,6 +503,13 @@ nav a {
         width: 100%;
         height: auto;
     }
+    h3 {
+        margin-top: 4vh;
+    }
+    form button {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
     .footer-frame {
         width: 100%;
         padding-left: 2.5vh;
