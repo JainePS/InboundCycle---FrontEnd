@@ -61,9 +61,6 @@ header img {
     height: auto;
 }
 
-
-/* Como trata-se de um header eu utilizei Advanced Selectors, a fim de evitar acrescentar classes, */
-
 header ul {
     width: auto;
     display: flex;
@@ -141,7 +138,7 @@ h2 {
     color: #b4b4b4;
     margin-top: 3vh;
     font-weight: bolder;
-    font-size: 1.15em;
+    font-size: 1em;
     word-spacing: 0.008em;
     letter-spacing: -0.05em;
     line-height: 1.3em;
@@ -195,6 +192,9 @@ h3 {
     text-transform: uppercase;
     text-align: center;
 }
+
+
+/* padding */
 
 .field-box {
     display: flex;
@@ -260,6 +260,7 @@ footer {
 }
 
 .footer-frame {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -292,4 +293,174 @@ nav a {
 
 .company-year {
     font-size: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: auto;
+        height: 100%;
+    }
+    .h-orange-line {
+        width: 100%;
+        height: 0.7vh;
+    }
+    header {
+        width: 100%;
+        padding: 2vh 5vh 3vh 5vh;
+    }
+    header img {
+        width: 20vh;
+        height: auto;
+    }
+    header ul {
+        margin-top: 0vh;
+        gap: 1vh;
+    }
+    header a {
+        font-size: 80%;
+    }
+    .separator-image {
+        max-width: 100%;
+        height: 10vh;
+        opacity: 0.7;
+    }
+    .wrapper {
+        padding: 4vh 5vh;
+        flex-wrap: wrap;
+        gap: 1vh;
+        justify-content: center;
+    }
+    section img {
+        height: 35vh;
+        margin-right: 5vh;
+        margin-top: -7vh;
+        z-index: 2;
+    }
+    section {
+        width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 1.1em;
+    }
+    hr {
+        opacity: 0.1;
+    }
+    h2 {
+        width: 100%;
+        padding-right: 0vh;
+        margin-top: 3vh;
+        font-size: 0.8em;
+    }
+    .emphasizes {
+        margin-bottom: 3vh;
+    }
+    .form-box {
+        width: 100%;
+        height: auto;
+    }
+    h3 {
+        margin-top: 4vh;
+    }
+    form button {
+        margin-bottom: 2vh;
+    }
+    footer {
+        width: auto;
+        height: 20vh;
+    }
+    .footer-frame {
+        width: 100%;
+        padding-left: 5vh;
+        padding-top: 8vh;
+        align-items: center;
+    }
+    footer img {
+        width: auto;
+        height: 3vh;
+    }
+    .footer-texts {
+        gap: 0.1vh;
+        padding-right: 4vh;
+        font-size: 0.5em;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vh;
+    }
+    nav a {
+        color: white;
+    }
+    .company-year {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+    header img {
+        width: 20vh;
+        height: auto;
+    }
+    section img {
+        width: auto;
+        height: 25vh;
+        margin-right: 5vh;
+        margin-top: -8vh;
+    }
+    section h2 {
+        width: 100%;
+        margin-right: -10vh;
+        margin-top: 3vh;
+        font-size: 0.8em;
+    }
+    .emphasizes {
+        margin-bottom: 3vh;
+    }
+    .form-box {
+        width: 100%;
+        height: auto;
+    }
+    h3 {
+        margin-top: 4vh;
+    }
+    form button {
+        margin-bottom: 2vh;
+    }
+    footer {
+        width: auto;
+        height: 20vh;
+    }
+    .footer-frame {
+        width: 100%;
+        padding-left: 5vh;
+        padding-top: 8vh;
+        align-items: center;
+    }
+    footer img {
+        width: auto;
+        height: 3vh;
+    }
+    .footer-texts {
+        gap: 0.1vh;
+        padding-right: 4vh;
+        font-size: 0.5em;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vh;
+    }
+    nav a {
+        color: white;
+    }
+    .company-year {
+        font-size: 1em;
+    }
 }
