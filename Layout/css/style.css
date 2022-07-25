@@ -466,9 +466,19 @@ nav a {
         width: 100%;
         height: auto;
     }
+    header {
+        width: 100%;
+        padding: 2vh 8vh 2vh 2vh;
+    }
     header img {
-        width: 20vh;
+        width: 15vh;
         height: auto;
+    }
+    .wrapper {
+        padding: 2vh 8vh 2vh 2vh;
+        display: flex;
+        flex-direction: row;
+        gap: 5vh;
     }
     section {
         width: 100%;
@@ -476,7 +486,7 @@ nav a {
     }
     section img {
         width: auto;
-        height: 25vh;
+        height: 30vh;
         margin-right: 0vh;
         margin-top: -2vh;
     }
@@ -489,14 +499,26 @@ nav a {
         margin-top: 3vh;
         font-size: 0.8em;
     }
+    .footer-frame {
+        width: 100%;
+        padding-left: 1vh;
+        padding-top: 9vh;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1vh;
+    }
     footer img {
-        height: 2vh;
+        width: auto;
+        height: 1.5vh;
     }
     .footer-texts {
-        gap: 0.2vh;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 1vh;
+        font-size: 0.5em;
     }
     nav ul {
-        gap: 0.3vh;
+        gap: 0.5vh;
     }
 }
 
