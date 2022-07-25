@@ -1,5 +1,7 @@
 //Variables of the popup references
+//From popup class
 var modal = document.getElementById("donwloaded");
+//From form id and class form-box 
 var span = document.getElementsByClassName("close")[0];
 
 //open the popup

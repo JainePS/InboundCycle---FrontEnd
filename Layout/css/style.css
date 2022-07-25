@@ -462,10 +462,18 @@ nav a {
         padding: 2vh 4vh 2vh 4vh;
     }
     header img {
-        width: auto;
-        height: 2vh;
+        width: 17vh;
+        height: auto;
+    }
+    header ul {
+        margin-top: 0.1vh;
+        gap: 0.5vh;
+    }
+    header a {
+        font-size: 70%;
     }
     .wrapper {
+        width: 100%;
         padding: 2vh 4vh 2vh 4vh;
         display: flex;
         flex-direction: row;
@@ -490,6 +498,10 @@ nav a {
         padding-right: 0vh;
         margin-top: 3vh;
         font-size: 0.8em;
+    }
+    .form-box {
+        width: 100%;
+        height: auto;
     }
     .footer-frame {
         width: 100%;
