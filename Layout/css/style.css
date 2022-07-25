@@ -240,7 +240,7 @@ label>a {
     color: #ec600c;
 }
 
-button {
+form button {
     background-color: #ec600c;
     color: white;
     font-family: woff, sans-serif;
@@ -281,7 +281,15 @@ footer {
 
 nav ul {
     list-style-type: none;
-    color: white;
     display: flex;
     flex-direction: row;
+    gap: 1vh;
+}
+
+nav a {
+    color: white;
+}
+
+.company-year {
+    font-size: 1em;
 }
