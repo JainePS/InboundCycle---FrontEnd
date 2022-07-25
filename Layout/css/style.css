@@ -207,7 +207,6 @@ h3 {
 
 fieldset>input {
     border: 1px solid;
-    box-sizing: border-box;
     font-family: woff, sans-serif;
     color: #e7e4e4;
     font-size: 0.8em;
@@ -216,10 +215,22 @@ fieldset>input {
     margin-top: 0.25rem;
     padding: 0.25rem 0.5rem;
     width: 13rem;
+    border-color: #b4b4b4;
 }
 
-input::placeholder {
-    color: #b4b4b4;
+input:focus {
+    outline: 2px solid orange;
+}
+
+input::placeholder,
+input:hover {
+    border-color: #ec600c;
+    color: #ececec;
+}
+
+input:valid {
+    border-color: #ec600c;
+    color: #525254;
 }
 
 .checkbox {
@@ -252,6 +263,7 @@ form button {
     margin-top: -1vh;
     margin-left: 4vh;
     margin-right: 4vh;
+    cursor: pointer;
 }
 
 footer {

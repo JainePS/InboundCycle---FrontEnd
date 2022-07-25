@@ -67,12 +67,12 @@
                 <form id="downloadBookForm" class="form-box">
                     <h3>Descargar e-book gratis</h3>
                     <fieldset class="field-box">
-                        <input type="text" name="name" placeholder="Nombre">
-                        <input type="text" name="surname" placeholder="Apellidos">
-                        <input type="email" name="email" placeholder="E-mail">
+                        <input type="text" name="name" placeholder="Nombre" required>
+                        <input type="text" name="surname" placeholder="Apellidos" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
                     </fieldset>
                     <fieldset class="checkbox">
-                        <label><input type="checkbox" name="legal"> Acepto la <a href="#" title="Lea nuestra política de privacidad">política de privacidad</a>*</label>
+                        <label><input type="checkbox" name="legal" required> Acepto la <a href="#" title="Lea nuestra política de privacidad">política de privacidad</a>*</label>
                         <label><input type="checkbox" name="subscription"> Suscríbeme al blog</label>
                     </fieldset>
                     <button type="submit">Descargar</button>
